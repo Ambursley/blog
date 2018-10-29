@@ -42,6 +42,7 @@
 
     <!-- Main CSS Stylesheet -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/little-widgets.css">
 
     <!-- Animate.css -->
     <link rel="stylesheet" href="css/animate.css">
@@ -67,39 +68,25 @@
 
 
    
-    <div class="popup-wrapper show">
-        <div class="popup-box entry">
-            <span class="close-btn"><i class="fa fa-times"></i></span>
-            <div class="popup-text show">
-                <div class="whole">
-                    <p class="springgreen">Yours Free</p>
-                    <h3>Download your Freebie now!</h3>
-                    <p>Enter your email below and you'll receive your freebie in your inbox shortly.</p>
-                </div>
-
-
-                <form id="" method="post" action="">
-
-                    <div class="pop-left">
-                        <input type="email" id="" placeholder="Enter your email here" />
-                    </div>
-                    <div class="pop-right">
-                        <button type="submit">SUBMIT</button>
-
-                    </div>
-                </form>
-                <div class="whole">
-                    <a href="#">No thanks.</a>
-                    <p></p>
-                </div>
-
+    <!-- Pop Up Download 2 -->
+    <div class="lw-widget" id="lw-widget-onclick">
+      <div class="lw-overlay" data-lw-close></div>
+      <div class="lw-container">
+        <div class="lw-item lw-item_bg lw-item_border"><button class="lw-close" data-lw-close><i class="fa fa-times"></i></button>
+          <form class="lw-wrap lw-wrap_pt" name="myForm" action="http://www.focuspocus.io/magic/startingwithsimple@gmail.com" onsubmit="return validateForm();" method="post">
+            <div class="lw-title">Download Your Freebie Now!</div>
+            <div class="lw-content lw-mb-def">Enter your name and email below and you will receive your freebie in your inbox shortly.</div>
+            <div class="lw-field lw-field_group lw-mb-sm">
+              <div class="lw-field__wrap"><input class="lw-field__input" type="text" placeholder="Enter Your Name" required></div>
+              <div class="lw-field__wrap"><input class="lw-field__input" type="email" placeholder="Enter Your Email" required></div>
             </div>
-            <div class="final-popup hide">
-                <h2>Thanks! Your download is on its way to your inbox.</h2>
-            </div>
+            <div class="lw-actions"><button class="lw-btn lw-btn_sm lw-btn_bg" type="submit" data-lw-ripple>Submit</button></div>
+          </form>
+          
         </div>
+      </div>
     </div>
-    <!-- /Pop Up Download -->
+    <!-- /Pop Up Download 2 -->
 
 
 
@@ -451,7 +438,7 @@
             <h1 class="wow fadeInUp category-page"><a href="">7 Reasons Why We Won't Enroll Our Kids in School</a></h1>
             <p class="wow fadeInUp" data-wow-delay="0.4s">We talk about building wealth and personal health. At the moment, this website is currently under construction. Please check back in October when our code has been beautified. Thank you for your patience!</p>
            
-            <a class="cta-btn">Featured Article</a>
+            <a class="cta-btn">Read Featured Article</a>
             </div>
         </div>
     </div>
@@ -967,8 +954,8 @@ window.document.keeper.page.value + '.html'">
                         <div class="section-title">
                             <h2 class="title">Download</h2>
                         </div>
-                        <a href="javascript:void(0)" onclick="somefunction(); return false;" class="open-btn" style="display: inline-block;margin: auto; padding-top: 5px;">
-                            <img class="img-responsive" src="./img/ad-3.jpg" alt="">
+                        <a href="javascript:void(0)" style="display: inline-block;margin: auto; padding-top: 5px;">
+                            <img class="img-responsive" id="btn-open" data-lw-onclick="#lw-widget-onclick" src="./img/ad-3.jpg" alt="">
                         </a>
                     </div>
                     <!-- /ad widget -->
@@ -1223,6 +1210,7 @@ window.document.keeper.page.value + '.html'">
 
     <!-- Pop Up Download -->
     <script type="text/javascript" src="js/downloadpop.js"></script>
+    <script type="text/javascript" src="js/little-widgets.js"></script>
 
     <!-- fade -->
     <script type="text/javascript" src="js/callwow.js"></script>

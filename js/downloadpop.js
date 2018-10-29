@@ -1,3 +1,5 @@
+
+
 //function to bind events to elements
 function bindEvent(elem,event_name,event_handler){
   if(elem.addEventListener){
@@ -43,6 +45,7 @@ function calls(){
   bindEvent(btn2,'click',function(){
     validate_email(0);
   });
+/**    
   bindEvent(box,'mousemove',function(event){
    
     if(window.event){
@@ -53,6 +56,8 @@ function calls(){
   var target = document.getElementsByClassName('popup-box')[0];
   target.style.transform = 'rotateX('+ -mouseY/-30 +'deg) rotateY('+ -mouseX/95 +'deg)';
   });
+**/    
+    
   bindEvent(wrapper,'mouseover',function(){
     var target = document.getElementsByClassName('popup-box')[0];
   target.style.transform = 'rotateX('+ 0 +'deg) rotateY('+ 0 +'deg)';

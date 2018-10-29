@@ -51,6 +51,9 @@
 
     <!-- Main CSS Stylesheet -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/little-widgets.css">
+    
+    
 
     <!-- Animate.css -->
     <link rel="stylesheet" href="css/animate.css">
@@ -75,7 +78,7 @@
 <body>
 
 
-    
+    <!-- Pop Up Download 
     <div class="popup-wrapper show">
         <div class="popup-box entry">
             <span class="close-btn"><i class="fa fa-times"></i></span>
@@ -109,6 +112,26 @@
         </div>
     </div>
     <!-- /Pop Up Download -->
+    
+    <!-- Pop Up Download 2 -->
+    <div class="lw-widget" id="lw-widget-onclick">
+      <div class="lw-overlay" data-lw-close></div>
+      <div class="lw-container">
+        <div class="lw-item lw-item_bg lw-item_border"><button class="lw-close" data-lw-close><i class="fa fa-times"></i></button>
+          <form class="lw-wrap lw-wrap_pt" name="myForm" action="http://www.focuspocus.io/magic/startingwithsimple@gmail.com" onsubmit="return validateForm();" method="post">
+            <div class="lw-title">Download Your Freebie Now!</div>
+            <div class="lw-content lw-mb-def">Enter your name and email below and you will receive your freebie in your inbox shortly.</div>
+            <div class="lw-field lw-field_group lw-mb-sm">
+              <div class="lw-field__wrap"><input class="lw-field__input" type="text" placeholder="Enter Your Name" required></div>
+              <div class="lw-field__wrap"><input class="lw-field__input" type="email" placeholder="Enter Your Email" required></div>
+            </div>
+            <div class="lw-actions"><button class="lw-btn lw-btn_sm lw-btn_bg" type="submit" data-lw-ripple>Submit</button></div>
+          </form>
+          
+        </div>
+      </div>
+    </div>
+    <!-- /Pop Up Download 2 -->
 
 
 
@@ -973,8 +996,9 @@ window.document.keeper.page.value + '.html'">
                         <div class="section-title">
                             <h2 class="title">Download</h2>
                         </div>
-                        <a href="javascript:void(0)" onclick="somefunction(); return false;" class="open-btn" style="display: inline-block;margin: auto; padding-top: 5px;">
-                            <img class="img-responsive" src="./img/ad-3.jpg" alt="">
+                        
+                        <a href="javascript:void(0)" style="display: inline-block;margin: auto; padding-top: 5px;">
+                            <img class="img-responsive" id="btn-open" data-lw-onclick="#lw-widget-onclick" src="./img/ad-3.jpg" alt="">
                         </a>
                     </div>
                     <!-- /ad widget -->
@@ -1230,6 +1254,7 @@ window.document.keeper.page.value + '.html'">
 
     <!-- Pop Up Download -->
     <script type="text/javascript" src="js/downloadpop.js"></script>
+    <script type="text/javascript" src="js/little-widgets.js"></script>
 
     <!-- fade -->
     <script type="text/javascript" src="js/callwow.js"></script>
