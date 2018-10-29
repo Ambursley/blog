@@ -640,7 +640,7 @@
         margin-top: 40px;
         text-transform: uppercase;
         font-size: 16px;
-        color: #333333;
+        color: #111324;
     }
     
     @media only screen and (max-width: 570px) {
@@ -661,7 +661,7 @@
         margin-top: 0 !important;
         text-transform: uppercase;
         font-size: 16px;
-        color: #26272D;
+        color: #111324;
     }
     
     .rightmenu ul {
@@ -741,7 +741,7 @@
     
     .blog-post .post-title h2 {
         font-family: 'Niramit', sans-serif;
-        color: #333333;
+        color: #111324;
         font-size: 24px;
         line-height: 30px;
         font-weight: 600 !important;
@@ -1234,7 +1234,7 @@
         padding: 20px;
         border-radius: 50px;
         border: solid 7px #7021FF;
-        background: #26272d;
+        background: #111324;
         color: #ffffff;
         width: 100%;
         font-size: 15px;
@@ -1300,7 +1300,7 @@
     
     #footer-subscribe h2 {
         font-family: 'Niramit', sans-serif;
-        color: #333;
+        color: #111324;
         font-size: 30px;
         font-weight: 600;
         padding-bottom: 15px;
@@ -1399,7 +1399,7 @@
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 0.1em;
-        color: #26272d;
+        color: #111324;
         font-size: 13px;
     }
     
@@ -2245,7 +2245,7 @@
         font-weight: 400;
         line-height: 3rem;
         font-size: 12px;
-        background-color: #26272d;
+        background-color: #111324;
         color: #ffff;
         letter-spacing: 1px !important;
         margin: 8px 0;
@@ -2704,7 +2704,7 @@
     
     #home-header h1 {
         font-family: 'Niramit', sans-serif;
-        color: #333;
+        color: #111324;
         font-size: 45px;
         line-height: 45px;
         font-weight: 700 !important;
@@ -2739,7 +2739,7 @@
     
     #home-header p.category-date {
         font-size: 10px;
-        font-weight: 300;
+        font-weight: 400;
         color: #7021FF;
     }
     
@@ -2851,7 +2851,7 @@
     
     #main-nav #navigation {
         font-size: 16px;
-        color: #333;
+        color: #111324;
         text-decoration: none;
         position: absolute;
         top: 50%;
@@ -2873,7 +2873,7 @@
     }
     
     .nav-center ul li a {
-        color: #26272d;
+        color: #111324;
         text-decoration: none;
     }
     
@@ -2976,7 +2976,7 @@
         top: 0;
         padding: 40px;
         z-index: 50;
-        background: #26272d;
+        background: #111324;
         transition: 0.7s cubic-bezier(0.545, 0, 0.05, 1);
     }
     
@@ -3160,7 +3160,7 @@
             font-family: 'proxima-nova', sans-serif;
             line-height: 18px;
             font-size: 13px;
-            font-weight: 300;
+            font-weight: 400;
             color: #fff;
         }
         #main-nav .nav-container #slide_out_menu ul.sldm-default li a {
@@ -3209,7 +3209,7 @@
             font-family: 'proxima-nova', sans-serif;
             text-transform: none;
             font-size: 12px;
-            font-weight: 400;
+            font-weight: 300 !important;
         }
         #main-nav .nav-container #slide_out_menu ul.sldm-default li.sldm-submenu ul li a {
             font-family: 'proxima-nova', sans-serif;
@@ -3376,6 +3376,7 @@
         font-weight: 100;
         font-size: 12px;
         list-style: none;
+        font-weight: 400;
         color: #333;
     }
     
@@ -3452,7 +3453,7 @@
         font-family: 'din-condensed', sans-serif;
         text-transform: uppercase;
         font-size: 16px;
-        color: #333333;
+        color: #111324;
         position: relative;
         display: inline-block;
         background-color: #fafafa;
@@ -3609,7 +3610,7 @@
         font-family: "proxima-nova", sans-serif;
         font-size: 13px;
         line-height: 18px;
-        font-weight: 300;
+        font-weight: 400;
         letter-spacing: 0.2px;
         margin-top: 8px;
     }
@@ -3622,7 +3623,7 @@
     }
     
     .post-widget .aside-post-title a {
-        color: #333333;
+        color: #111324;
     }
     
     .post-widget .aside-post-title a:hover {
@@ -3643,7 +3644,7 @@
     .newsletter-form input {
         width: 100%;
         height: 40px;
-        background-color: #26272d;
+        background-color: #111324;
         border: 3px solid #7021FF;
         border-radius: 30px;
         padding: 0 20px;
@@ -3810,12 +3811,12 @@
     
     .left li.has-dropdown.megamenu .dropdown-body .post-category {
         margin-top: 8px;
-        font-weight: 300 !important;
+        font-weight: 400 !important;
         letter-spacing: normal;
     }
     
     .left li.has-dropdown.megamenu .post-time {
-        font-weight: 300;
+        font-weight: 400;
         position: absolute;
         left: 0px;
         top: 0px;
@@ -3916,7 +3917,7 @@
     .popup-wrapper button {
         color: black;
         cursor: pointer;
-        background-color: #2FE7BE;
+        background-color: #7021FF;
     }
     
     .popup-wrapper a {
@@ -3977,7 +3978,7 @@
     .popup-box {
         width: 40%;
         height: 300px;
-        background-color: #26272d;
+        background-color: #111324;
         margin: 100px auto 0 auto;
         border-radius: 4px;
         padding: 20px 0 30px 0;
@@ -4047,9 +4048,9 @@
     }
     
     .popup-box button:hover {
-        background-color: transparent;
+        background-color: #5614ce;
         color: white;
-        border: 1px solid #7021FF;
+        
     }
     
     .popup-box input {
