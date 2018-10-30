@@ -20,16 +20,26 @@
 
         gtag('config', 'UA-113025111-4');
     </script>
-    
-    
+
+
     <!-- Mail Chimp Pop Up -->
-    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us19.list-manage.com","uuid":"c444ebc1cfea3e0b81108b23a","lid":"407af61527","uniqueMethods":true}) })</script>
-    
-    
-    
-    
+    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+    <script type="text/javascript">
+        window.dojoRequire(["mojo/signup-forms/Loader"], function(L) {
+            L.start({
+                "baseUrl": "mc.us19.list-manage.com",
+                "uuid": "c444ebc1cfea3e0b81108b23a",
+                "lid": "407af61527",
+                "uniqueMethods": true
+            })
+        })
+    </script>
+
+
+
+
     <!-- Pinterest Tag -->
-    <meta name="p:domain_verify" content="ff35cee9041c82a8857685a47443711a"/>
+    <meta name="p:domain_verify" content="ff35cee9041c82a8857685a47443711a" />
 
 
     <!-- SEO -->
@@ -52,8 +62,8 @@
     <!-- Main CSS Stylesheet -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/little-widgets.css">
-    
-    
+
+
 
     <!-- Animate.css -->
     <link rel="stylesheet" href="css/animate.css">
@@ -112,24 +122,28 @@
         </div>
     </div>
     <!-- /Pop Up Download -->
-    
+
     <!-- Pop Up Download 2 -->
     <div class="lw-widget" id="lw-widget-onclick">
-      <div class="lw-overlay" data-lw-close></div>
-      <div class="lw-container">
-        <div class="lw-item lw-item_bg lw-item_border"><button class="lw-close" data-lw-close><i class="fa fa-times"></i></button>
-          <form class="lw-wrap lw-wrap_pt" name="myForm" action="http://www.focuspocus.io/magic/startingwithsimple@gmail.com" onsubmit="return validateForm();" method="post">
-            <div class="lw-title">Download Your Freebie Now!</div>
-            <div class="lw-content lw-mb-def">Enter your name and email below and you will receive your freebie in your inbox shortly.</div>
-            <div class="lw-field lw-field_group lw-mb-sm">
-              <div class="lw-field__wrap"><input class="lw-field__input" type="text" placeholder="Enter Your Name" required></div>
-              <div class="lw-field__wrap"><input class="lw-field__input" type="email" placeholder="Enter Your Email" required></div>
+        <div class="lw-overlay" data-lw-close></div>
+        <div class="lw-container">
+            <div class="lw-item lw-item_bg lw-item_border"><button class="lw-close" data-lw-close><i class="fa fa-times"></i></button>
+                <form class="lw-wrap lw-wrap_pt" name="myForm" action="http://www.focuspocus.io/magic/startingwithsimple@gmail.com" onsubmit="return validateForm();" method="post">
+                    <div class="lw-title">Download Your Freebie Now!</div>
+                    <div class="lw-content lw-mb-def">Enter your name and email below and you will receive your freebie in your inbox shortly.</div>
+                    <div class="lw-field lw-field_group lw-mb-sm">
+                        <div class="lw-field__wrap">
+                        <input class="lw-field__input" type="text" name="name" placeholder="Enter Your Name" required>
+                        </div>
+                        <div class="lw-field__wrap">
+                        <input class="lw-field__input" type="email" name="home-popup-email" placeholder="Enter Your Email" data-rule="email" required>
+                        </div>
+                    </div>
+                    <div class="lw-actions"><button class="lw-btn lw-btn_sm lw-btn_bg" type="submit" data-lw-ripple>Submit</button></div>
+                </form>
+
             </div>
-            <div class="lw-actions"><button class="lw-btn lw-btn_sm lw-btn_bg" type="submit" data-lw-ripple>Submit</button></div>
-          </form>
-          
         </div>
-      </div>
     </div>
     <!-- /Pop Up Download 2 -->
 
@@ -230,8 +244,8 @@
                     </div>
 
                     <div class="newsletter-form margin-bottom-20">
-                        <form id="" method="post" action="">
-                            <input type="email" id="" placeholder="Your Email">
+                        <form name="myForm" action="http://www.focuspocus.io/magic/startingwithsimple@gmail.com" onsubmit="return validateForm();" method="post">
+                            <input type="email" name="home-slide-menu-email" data-rule="email" placeholder="Enter Your Email" required>
                             <button type="submit"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
                         </form>
                     </div>
@@ -996,7 +1010,7 @@ window.document.keeper.page.value + '.html'">
                         <div class="section-title">
                             <h2 class="title">Download</h2>
                         </div>
-                        
+
                         <a href="javascript:void(0)" style="display: inline-block;margin: auto; padding-top: 5px;">
                             <img class="img-responsive" id="btn-open" data-lw-onclick="#lw-widget-onclick" src="./img/ad-3.jpg" alt="">
                         </a>
@@ -1011,8 +1025,8 @@ window.document.keeper.page.value + '.html'">
                         </div>
                         <p>Subscribe to get notifications about new articles, downloads, resources etc.</p>
                         <div class="newsletter-form">
-                            <form action="#" method="post">
-                                <input type="email" name="newsletter-email" id="email" class="text-input" placeholder="Your Email">
+                            <form name="myForm" action="http://www.focuspocus.io/magic/startingwithsimple@gmail.com" onsubmit="return validateForm();" method="post">
+                                <input type="email" data-rule="email" name="home-aside-email" id="email" class="text-input" placeholder="Enter Your Email" required>
                                 <button type="submit"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
                             </form>
                         </div>
@@ -1120,14 +1134,14 @@ window.document.keeper.page.value + '.html'">
                     <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Curabitur blandit tempus porttitor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
 
                     <form name="myForm" id="mc-form" action="http://www.focuspocus.io/magic/startingwithsimple@gmail.com" onsubmit="return validateForm();" method="post">
-                        
+
 
                         <div class="subscribe-form">
-                            <input id="mc-email" type="email" placeholder="Your Email" class="text-input">
+                            <input id="mc-email" type="email" name="home-footer-email" placeholder="Enter Your Email" data-rule="email" class="text-input" required>
                             <button class="submit-btn" type="submit">Subscribe</button>
                         </div>
                         <p>Subscribe to stay updated</p>
-                        <label for="mc-email" class="mc-label"></label>
+                       
                     </form>
                 </div>
             </div>

@@ -123,11 +123,11 @@
 
 
 
-        /* Ajaxchimp for Subscribe Form */
+        /* Ajaxchimp for Subscribe Form 
 
         $('#mc-form').ajaxChimp();
 
-
+*/
 
 
         /* Video and Google Map Popup */
