@@ -43,7 +43,7 @@
 
     <!-- Main CSS Stylesheet -->
     <link rel="stylesheet" type="text/css" href="css/style-posts.css">
-    <link rel="stylesheet" type="text/css" href="css/popnav.css">
+    <link rel="stylesheet" type="text/css" href="css/little-widgets.css">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
@@ -71,6 +71,29 @@
 <body style="background-color: #fff !important;">
 
 
+<!-- Pop Up Download 2 -->
+    <div class="lw-widget" id="lw-widget-onclick">
+        <div class="lw-overlay" data-lw-close></div>
+        <div class="lw-container">
+            <div class="lw-item lw-item_bg lw-item_border"><button class="lw-close" data-lw-close><i class="fa fa-times"></i></button>
+                <form class="lw-wrap lw-wrap_pt" name="myForm" action="http://www.focuspocus.io/magic/startingwithsimple@gmail.com" onsubmit="return validateForm();" method="post">
+                    <div class="lw-title">Download Your Freebie Now!</div>
+                    <div class="lw-content lw-mb-def">Enter your name and email below and you will receive your freebie in your inbox shortly.</div>
+                    <div class="lw-field lw-field_group lw-mb-sm">
+                        <div class="lw-field__wrap">
+                        <input class="lw-field__input" type="text" name="name" placeholder="Enter Your Name" required>
+                        </div>
+                        <div class="lw-field__wrap">
+                        <input class="lw-field__input" type="email" name="3investingtips-popup-email" placeholder="Enter Your Email" data-rule="email" required>
+                        </div>
+                    </div>
+                    <div class="lw-actions"><button class="lw-btn lw-btn_sm lw-btn_bg" type="submit" data-lw-ripple>Submit</button></div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <!-- /Pop Up Download 2 -->
 
     <!-- Preloader Start -->
     <div class="preloader">
@@ -725,8 +748,8 @@
                         <div class="section-title">
                             <h2 class="title">Download</h2>
                         </div>
-                        <a href="#" style="display: inline-block;margin: auto; padding-top: 5px;">
-                            <img class="img-responsive" src="./img/ad-3.jpg" alt="">
+                        <a href="javascript:void(0)" style="display: inline-block;margin: auto; padding-top: 5px;">
+                            <img class="img-responsive" id="btn-open" data-lw-onclick="#lw-widget-onclick" src="./img/ad-3.jpg" alt="">
                         </a>
                     </div>
                     <!-- /ad widget -->
@@ -1249,6 +1272,8 @@
     <script type="text/javascript" src="js/demo1.js"></script>
     <script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
+    
+    <script type="text/javascript" src="js/little-widgets.js"></script>
 
     <!-- Main Javascript File  -->
     <script type="text/javascript" src="js/scripts.js"></script>
