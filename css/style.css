@@ -2123,22 +2123,7 @@
     .tooltip-color .tooltip-inner {
         color: #fff;
     }
-    /* UiPasta Credit */
-    
-    .uipasta-credit {
-        color: #333333;
-        text-align: center;
-        margin-top: 20px;
-    }
-    
-    .uipasta-credit a {
-        color: #7021FF;
-        font-weight: 600;
-    }
-    
-    .uipasta-credit a:hover {
-        color: #333333;
-    }
+  
     
     .author {
         font-family: 'proxima-nova', sans-serif;
