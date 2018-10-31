@@ -1134,7 +1134,7 @@ blockquote {
     padding: 20px;
     border-radius: 50px;
     border: solid 7px #7021FF;
-    background: #232F34;
+    background: #111324;
     color: #ffffff;
     width: 100%;
     font-size: 15px;
@@ -2479,7 +2479,7 @@ span.psw {
 
 #footer-subscribe h2 {
         font-family: 'Niramit', sans-serif;
-        color: #333;
+        color: #111324;
         font-size: 25px;
         font-weight: 700 !important;
         padding-bottom: 15px;
