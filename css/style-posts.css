@@ -1625,7 +1625,7 @@ blockquote {
 
 /* Responsive */
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 760px) {
     .endpage-box {
         display: none !important;
     }
