@@ -39,6 +39,8 @@ a:active {
     color: #333333;
 }
 
+
+
 b {
     font-weight: 600;
     color: #333333;
@@ -183,6 +185,15 @@ button {
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);
     border-radius: 6px;
 }
+
+.page-body-insta2 {
+    display: block;
+    position: absolute;
+    background: #ffffff;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 6px;
+}
+
 
 .sub-title {
     padding: 10px;

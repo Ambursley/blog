@@ -21,6 +21,7 @@
 
     <!-- Main CSS Stylesheet -->
     <link rel="stylesheet" type="text/css" href="css/insta-link.css">
+    <link rel="stylesheet" type="text/css" href="css/little-widgets.css">
 
     <!-- Animate.css -->
     <link rel="stylesheet" href="css/animate.css">
@@ -44,7 +45,32 @@
 
 <body>
 
+<!-- Pop Up Download 2 -->
+    <div class="lw-widget" id="lw-widget-onclick">
+        <div class="lw-overlay" data-lw-close></div>
+        <div class="lw-container lw-container_bd lw-container_center">
+            <div class="lw-item lw-item_bg lw-item_border"><button class="lw-close" data-lw-close><i class="fa fa-times"></i></button>
+                <form class="lw-wrap lw-wrap_pt" name="myForm" action="http://www.focuspocus.io/magic/startingwithsimple@gmail.com" onsubmit="return validateForm();" method="post">
+                    <div class="lw-title">Download Your Freebie Now!</div>
+                    <div class="lw-content lw-mb-def">Enter your name and email below and you will receive your freebie in your inbox shortly.</div>
+                    <div class="lw-field lw-field_group lw-mb-sm">
+                       <div class="lw-field__wrap">
+                        <input class="lw-field__input" type="text" name="downloadable" placeholder="Confirm Title of download or type &#8220;ALL&#8221;" required>
+                        </div>
+                        <div class="lw-field__wrap">
+                        <input class="lw-field__input" type="text" name="name" placeholder="Enter Your Name" required>
+                        </div>
+                        <div class="lw-field__wrap">
+                        <input class="lw-field__input" type="email" name="perdev-popup-email" data-rule="email" placeholder="Enter Your Email" required>
+                        </div>
+                    </div>
+                    <div class="lw-actions"><button class="lw-btn lw-btn_sm lw-btn_bg" type="submit" data-lw-ripple>Submit</button></div>
+                </form>
 
+            </div>
+        </div>
+    </div>
+    <!-- /Pop Up Download 2 -->
 
     <!-- Preloader Start -->
     <div class="preloader">
@@ -116,15 +142,15 @@
 
                     <!-- Blog Post Start -->
 
-                    <div class="col-md-12 blog-post-links page-body-insta">
+                    <div class="col-md-12 blog-post-links page-body-insta2">
                         <div class="col-md-2 left-icon">
                             <p>
-                                <a class="fa fa-download" href="https://youtu.be/hDgcJcoSy7g?t=3m49s" target="_blank"></a>
+                                <a class="fa fa-download" href="javascript:void(0)" alt="download" id="btn-open" data-lw-onclick="#lw-widget-onclick"></a>
                             </p>
                         </div>
                         <div class="col-md-10 right-content">
                             <p class="title">
-                                <a href="https://youtu.be/hDgcJcoSy7g?t=3m49s" target="_blank">
+                                <a href="javascript:void(0)" alt="download" id="btn-open" data-lw-onclick="#lw-widget-onclick">
                                     7 Reasons I Won't Enroll My Kids in School
                                 </a>
 
@@ -286,6 +312,7 @@
     <!-- All Javascript Plugins  -->
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/plugin.js"></script>
+    <script type="text/javascript" src="js/little-widgets.js"></script>
 
     <!-- Main Javascript File  -->
     <script type="text/javascript" src="js/scripts.js"></script>
