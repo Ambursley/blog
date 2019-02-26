@@ -1379,7 +1379,7 @@
     }
     
     #footer .logo {
-        margin-bottom: 36px;
+        margin-bottom: 15px;
         width: 200px;
     }
     
@@ -3701,11 +3701,14 @@
         font-size: 14px;
         color: #51545f;
         padding: 0 15px;
+        text-decoration: none;
     }
     
     .subscribe-link>a:hover {
         color: #7021FF;
     }
+    
+
     /*----------------------------*\
 	dropdown
 \*----------------------------*/
