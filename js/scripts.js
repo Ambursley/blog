@@ -215,7 +215,7 @@
 
         /* Load More Post */
 
-        $("div.blog-post").slice(0, 6).show();
+        $("div.blog-post").slice(0, 5).show();
         $("#load-more-post").on('click', function (e) {
             e.preventDefault();
             $("div.blog-post:hidden").slice(0, 1).slideDown(300);
